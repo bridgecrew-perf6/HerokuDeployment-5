@@ -51,6 +51,11 @@ web: gunicorn HerokuDeployment.wsgi --log-file -
 import django_heroku
 django_heroku.settings(locals())
 ```
+and add your app url to ALLOWED_HOSTS
+```python
+
+```
+
 
 11. [Optional] Share project on github (might be private)
 
