@@ -53,7 +53,7 @@ django_heroku.settings(locals())
 ```
 and add your app url to ALLOWED_HOSTS
 ```python
-
+ALLOWED_HOSTS = ['django-deployment-demo.herokuapp.com', '127.0.0.1']
 ```
 
 
