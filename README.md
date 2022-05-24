@@ -64,4 +64,4 @@ ALLOWED_HOSTS = ['django-deployment-demo.herokuapp.com', '127.0.0.1']
 14. Run `heroku login` command and login to heroku
 15. Create repo on heroku `heroku git:remote -a django-deployment-demo`
 16. Run `heroku config:set DISABLE_COLLECTSTATIC=1` or configure static files properly
-17. Push your code to heroku to trigger deplyoment `git push heroku master`
+17. Push your code to heroku to trigger deplyoment `git push heroku main`
